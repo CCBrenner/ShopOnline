@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gbWON8D94DRjS+bRpKEYHWB21IqYwu5WWuMtsbiIEW6f4bkzH1n48op6NuH2XjTKta1vEzPHiR3b8tyZuIjzxA==",
+  "dgSpecHash": "UmbbUwnIc7ZsWPb28jsNkpBKTVY1l6OipGuX8X9zRiSGcoxHd1MxJQRwqSdFp5B8f2hXCJUyyGzqVxRWceHQfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\misc_projects\\ShopOnlineSolution\\ShopOnline Web\\ShopOnline.Web.csproj",
+  "projectFilePath": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\ShopOnline.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

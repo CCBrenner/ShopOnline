@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\misc_projects\\ShopOnlineSolution\\ShopOnline.Models\\ShopOnline.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline.Models\\ShopOnline.Models.csproj",
       "projectName": "ShopOnline.Models",
-      "projectPath": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\misc_projects\\ShopOnlineSolution\\ShopOnline.Models\\ShopOnline.Models.csproj",
+      "projectPath": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline.Models\\ShopOnline.Models.csproj",
       "packagesPath": "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\misc_projects\\ShopOnlineSolution\\ShopOnline.Models\\obj\\",
+      "outputPath": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Collyn B - VotP\\AppData\\Roaming\\NuGet\\NuGet.Config",
