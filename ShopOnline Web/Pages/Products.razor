@@ -1,0 +1,31 @@
+﻿@page "/"
+
+<PageTitle>Products - ShopOnline.Web</PageTitle>
+
+@if(ProductsList == null && ErrorMessage == null)
+{
+    <DisplayLoading LoadingMessage="Loading Products"/>
+}
+else if (ProductsList == null)
+{
+    <h3>@ErrorMessage</h3>
+}
+else
+{
+    <h3 class="text-center">Products</h3>
+
+    @if(ProductsList.Count() > 0)
+    {
+        foreach(var prodGroup in GetGroupedProductsByCategory())
+        {
+            <h4>@GetCategoryName(prodGroup)</h4>
+            <div class="row mt-3">
+                <DisplayProducts Products="@prodGroup.Take(4)" />
+            </div>   
+            <hr class="mb-3"/>
+        }
+    }
+}
+ @code {
+
+ }

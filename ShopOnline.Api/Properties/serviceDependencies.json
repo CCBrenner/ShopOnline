@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "apis2": {
+      "ignored": "true",
+      "type": "apis.azure"
+    },
+    "apis1": {
+      "ignored": "true",
+      "type": "apis"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:ShopOnlineConnection",
+      "dynamicId": null
+    }
+  }
+}

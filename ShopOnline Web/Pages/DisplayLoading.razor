@@ -1,0 +1,11 @@
+﻿<div class="row justify-content-center align-content-center" style="height:80vh; font-size:2.3em;">
+    <div class="row justify-content-center align-content-center">
+        @LoadingMessage
+    </div>
+    <div class="loader"></div>
+</div>
+
+@code {
+    [Parameter]
+    public string LoadingMessage { get; set; }
+}

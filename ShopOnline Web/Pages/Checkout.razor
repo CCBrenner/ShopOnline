@@ -1,0 +1,52 @@
+﻿@page "/Checkout"
+
+<PageTitle>Checkout - ShopOnline.Web</PageTitle>
+
+@if (ShoppingCartItems == null && ErrorMessage == null)
+{
+    <DisplayLoading LoadingMessage="Loading Cart Totals" />
+}
+else if (ErrorMessage != null)
+{
+    <DisplayError ErrorMessage="ErrorMessage" />
+}
+else
+{
+    <h3 class="mb-5 text-center">Checkout</h3>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h4 class="mb-2">Payment Summary</h4>
+            @if (ShoppingCartItems.Count() > 0)
+            {
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var item in ShoppingCartItems)
+                        {
+                            <tr>
+                                <td>@item.Qty x @item.ProductName</td>
+                                <td>@item.TotalPrice.ToString("C")</td>
+                            </tr>
+                        }
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td><b>@PaymentAmount</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+                /*
+                <button class="btn-link btn-info me-2" @onclick="(()=>Pay_Click())">Purchase</button>
+                <span id="successfulPaymentMessage" style="display:none;">Thank you for your purchase!</span>*/
+            }
+            else
+            {
+                <p>You currently have no items in your shopping cart</p>
+            }
+        </div>
+    </div>
+}

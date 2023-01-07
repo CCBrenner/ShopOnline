@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ShopOnlineApi2" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Collyn\ B\ -\ VotP\\Desktop\\Professional\\Software\ Engineering\\projects\\gh_clone_hosting\\misc_projects\\ShopOnlineSolution\\ShopOnline\.Api\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

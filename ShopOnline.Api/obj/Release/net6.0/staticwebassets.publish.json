@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RCoLR3N1C4tyVwfHzy48jENKvSNkoY+BRRrQF5unchc=",
+  "Source": "ShopOnline.Api",
+  "BasePath": "_content/ShopOnline.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

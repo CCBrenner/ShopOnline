@@ -1,0 +1,1 @@
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\misc_projects\ShopOnlineSolution\ShopOnline Web\obj\Release\net6.0\browser-wasm\PubTmp\Out\web.config
