@@ -9,65 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = ShopOnline.Web
 build_property.RootNamespace = ShopOnline.Web
-build_property.ProjectDir = C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\misc_projects\ShopOnlineSolution\ShopOnline Web\
+build_property.ProjectDir = C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\ShopOnline\ShopOnline Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\misc_projects\ShopOnlineSolution\ShopOnline Web
+build_property.MSBuildProjectDirectory = C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\ShopOnline\ShopOnline Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/App.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Pages/Checkout.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Pages/Checkout.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Pages/DisplayError.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Pages/DisplayError.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheUVycm9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Pages/DisplayLoading.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Pages/DisplayLoading.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheUxvYWRpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Pages/FetchData.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Pages/ProductDetails.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Pages/ProductDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Pages/Products.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Pages/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Shared/CartButton.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Shared/CartButton.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcnRCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/_Imports.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Pages/DisplayProducts.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Pages/DisplayProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVByb2R1Y3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-r631xo10ml
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Pages/ShoppingCart.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Pages/ShoppingCart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdDYXJ0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-2o7k8o7qyw
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Shared/MainLayout.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-odzh4mtldn
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/misc_projects/ShopOnlineSolution/ShopOnline Web/Shared/NavMenu.razor]
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/ShopOnline/ShopOnline Web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zzqun8vtrk

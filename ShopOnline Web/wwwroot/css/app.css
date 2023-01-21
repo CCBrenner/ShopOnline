@@ -1,5 +1,9 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+* {
+    text-align: center;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -63,6 +67,16 @@ a, .btn-link {
         content: "An error has occurred."
     }
 
+/* start Custom styles */
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 95vh;
+    font-size: 2rem;
+}
+
 .loader {
     border: 6px solid lightgrey;
     border-radius: 50%;
@@ -81,3 +95,11 @@ a, .btn-link {
         transform: rotate(360deg);
     }
 }
+
+@media (min-width: 641px) {
+    .loading-container {
+        font-size: 4rem;
+    }
+}
+
+/* end Custom styles */
