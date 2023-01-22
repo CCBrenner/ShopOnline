@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Components;
-using Microsoft.JSInterop;
 using ShopOnline.Models.Dtos;
 using ShopOnline.Web.Services.Contracts;
 
@@ -9,13 +8,11 @@ namespace ShopOnline.Web.Pages
     {
         [Inject]
         public IShoppingCartService ShoppingCartService { get; set; }
-        [Inject]
-        public IJSRuntime Js { get; set; }
         public IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
         public string PaymentAmount { get; set; }
         public string ErrorMessage { get; set; }
 
-        protected async override void OnInitialized()
+        protected async override Task OnInitializedAsync()
         {
             try
             {
@@ -33,8 +30,5 @@ namespace ShopOnline.Web.Pages
                 ErrorMessage = ex.Message;
             }
         }
-        /*
-        protected async void Pay_Click() =>
-            await Js.InvokeVoidAsync("PurchaseShoppingCartItems", true);*/
     }
 }

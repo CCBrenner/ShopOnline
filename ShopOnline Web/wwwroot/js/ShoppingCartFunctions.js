@@ -3,7 +3,7 @@ function MakeUpdateQtyButtonVisible(id, visible) {
     updateQtyButton.style.display = visible ? "inline-block" : "none";
 }
 
-function PurchaseShoppingCartItems(bool visible) {
+function PurchaseShoppingCartItems(visible) {
     const successfulPaymentMessage = document.querySelector("#successfulPaymentMessage");
     successfulPaymentMessage.style.display = visible ? "inline-block" : "none";
 }

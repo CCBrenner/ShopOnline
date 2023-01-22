@@ -34,3 +34,15 @@ C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\Shop
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\refint\ShopOnline.Models.dll
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.pdb
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ref\ShopOnline.Models.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\bin\Debug\net6.0\ShopOnline.Models.deps.json
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\bin\Debug\net6.0\ShopOnline.Models.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\bin\Debug\net6.0\ShopOnline.Models.pdb
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.csproj.AssemblyReference.cache
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.AssemblyInfoInputs.cache
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.AssemblyInfo.cs
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.csproj.CoreCompileInputs.cache
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\refint\ShopOnline.Models.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ShopOnline.Models.pdb
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline.Models\obj\Debug\net6.0\ref\ShopOnline.Models.dll
