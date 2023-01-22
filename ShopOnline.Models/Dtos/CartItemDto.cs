@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ShopOnline.Models.Dtos
+﻿namespace ShopOnline.Models.Dtos
 {
     public class CartItemDto
     {
@@ -17,6 +11,5 @@ namespace ShopOnline.Models.Dtos
         public decimal Price { get; set; }
         public decimal TotalPrice { get; set; }
         public int Qty { get; set; }
-
     }
 }
