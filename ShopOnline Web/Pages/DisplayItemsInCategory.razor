@@ -1,0 +1,18 @@
+﻿<h3>@Header</h3>
+<div class="row">
+    @if (Products.Count() > 0)
+    {
+        <DisplayProducts Products="@Products" />
+    }
+    else
+    {
+        <p>No products.</p>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public IEnumerable<ProductDto> Products { get; set; }
+    [Parameter]
+    public string Header { get; set; }
+}

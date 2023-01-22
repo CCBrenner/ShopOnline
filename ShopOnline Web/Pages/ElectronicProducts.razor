@@ -1,0 +1,18 @@
+﻿@page "/electronics"
+
+<PageTitle>Electronics - ShopOnline.Web</PageTitle>
+
+@if (Electronics == null && ErrorMessage == null)
+{
+    <DisplayLoading LoadingMessage="Loading Beauty Products" />
+}
+else if (ErrorMessage != null)
+{
+    <DisplayError ErrorMessage="@ErrorMessage" />
+}
+else
+{
+    <DisplayItemsInCategory Header="Beauty Products" Products="@Electronics" />
+}
+
+@code { }

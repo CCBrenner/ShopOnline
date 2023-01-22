@@ -1,0 +1,18 @@
+﻿@page "/furniture"
+
+<PageTitle>Furniture - ShopOnline.Web</PageTitle>
+
+@if (Furniture == null && ErrorMessage == null)
+{
+    <DisplayLoading LoadingMessage="Loading Beauty Products" />
+}
+else if (ErrorMessage != null)
+{
+    <DisplayError ErrorMessage="@ErrorMessage" />
+}
+else
+{
+    <DisplayItemsInCategory Header="Beauty Products" Products="@Furniture" />
+}
+
+@code { }

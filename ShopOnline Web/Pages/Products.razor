@@ -8,11 +8,11 @@
 }
 else if (ProductsList == null)
 {
-    <h3>@ErrorMessage</h3>
+    <DisplayError ErrorMessage="@ErrorMessage" />
 }
 else
 {
-    <h3 class="text-center">Products</h3>
+    <h3>Products</h3>
 
     @if(ProductsList.Count() > 0)
     {
@@ -26,6 +26,5 @@ else
         }
     }
 }
- @code {
 
- }
+@code { }

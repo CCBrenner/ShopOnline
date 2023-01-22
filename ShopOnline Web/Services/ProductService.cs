@@ -100,7 +100,7 @@ namespace ShopOnline.Web.Services
         {
             try
             {
-                var response = await httpClient.GetAsync($"api/GetItemsByCategory/{categoryId}");
+                var response = await httpClient.GetAsync($"api/Product/GetItemsByCategory/{categoryId}");
                 if (response.IsSuccessStatusCode)
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
