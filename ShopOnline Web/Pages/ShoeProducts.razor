@@ -1,10 +1,10 @@
-﻿@page "/shoes"
+﻿@page "/ProductCategory/4"
 
 <PageTitle>Shoes - ShopOnline.Web</PageTitle>
 
 @if (Shoes == null && ErrorMessage == null)
 {
-    <DisplayLoading LoadingMessage="Loading Beauty Products" />
+    <DisplayLoading LoadingMessage="Loading Shoes" />
 }
 else if (ErrorMessage != null)
 {
@@ -12,7 +12,7 @@ else if (ErrorMessage != null)
 }
 else
 {
-    <DisplayItemsInCategory Header="Beauty Products" Products="@Shoes" />
+    <DisplayItemsInCategory Header="Shoes" Products="@Shoes" />
 }
 
 @code { }

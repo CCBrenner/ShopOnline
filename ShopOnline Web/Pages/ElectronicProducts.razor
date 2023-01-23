@@ -1,10 +1,10 @@
-﻿@page "/electronics"
+﻿@page "/ProductCategory/3"
 
 <PageTitle>Electronics - ShopOnline.Web</PageTitle>
 
 @if (Electronics == null && ErrorMessage == null)
 {
-    <DisplayLoading LoadingMessage="Loading Beauty Products" />
+    <DisplayLoading LoadingMessage="Loading Electronics" />
 }
 else if (ErrorMessage != null)
 {
@@ -12,7 +12,7 @@ else if (ErrorMessage != null)
 }
 else
 {
-    <DisplayItemsInCategory Header="Beauty Products" Products="@Electronics" />
+    <DisplayItemsInCategory Header="Electronics" Products="@Electronics" />
 }
 
 @code { }

@@ -1,6 +1,6 @@
-﻿@page "/beautyproducts"
+﻿@page "/ProductCategory/1"
 
-<PageTitle>Beauty Products - ShopOnline.Web</PageTitle>
+<PageTitle>Beauty - ShopOnline.Web</PageTitle>
 
 @if (BeautyProds == null && ErrorMessage == null)
 {
@@ -12,7 +12,7 @@ else if (ErrorMessage != null)
 }
 else
 {
-    <DisplayItemsInCategory Header="Beauty Products" Products="@BeautyProds" />
+    <DisplayItemsInCategory Header="Beauty" Products="@BeautyProds" />
 }
 
 @code { }

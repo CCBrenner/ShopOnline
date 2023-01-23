@@ -15,7 +15,7 @@ namespace ShopOnline.Web.Pages
         {
             try
             {
-                Shoes = await ProductService.GetItemsByCategory(1);
+                Shoes = await ProductService.GetItemsByCategory(4);
             }
             catch (Exception ex)
             {

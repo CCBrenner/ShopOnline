@@ -1,10 +1,10 @@
-﻿@page "/furniture"
+﻿@page "/ProductCategory/2"
 
 <PageTitle>Furniture - ShopOnline.Web</PageTitle>
 
 @if (Furniture == null && ErrorMessage == null)
 {
-    <DisplayLoading LoadingMessage="Loading Beauty Products" />
+    <DisplayLoading LoadingMessage="Loading Furniture" />
 }
 else if (ErrorMessage != null)
 {
@@ -12,7 +12,7 @@ else if (ErrorMessage != null)
 }
 else
 {
-    <DisplayItemsInCategory Header="Beauty Products" Products="@Furniture" />
+    <DisplayItemsInCategory Header="Furniture" Products="@Furniture" />
 }
 
 @code { }

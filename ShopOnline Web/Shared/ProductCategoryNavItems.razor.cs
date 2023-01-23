@@ -2,19 +2,20 @@
 using ShopOnline.Models.Dtos;
 using ShopOnline.Web.Services.Contracts;
 
-namespace ShopOnline.Web.Pages
+namespace ShopOnline.Web.Shared
 {
-    public partial class ElectronicProducts : ComponentBase
+    public partial class ProductCategoryNavItems : ComponentBase
     {
         [Inject]
         public IProductService ProductService { get; set; }
-        public IEnumerable<ProductDto> Electronics { get; set; }
+        public IEnumerable<ProductCategoryDto> ProductCategories { get; set; }
         public string ErrorMessage { get; set; }
-        protected override async Task OnInitializedAsync()
+
+        protected async Task OnInitializedAsyc()
         {
             try
             {
-                Electronics = await ProductService.GetItemsByCategory(3);
+                ProductCategories = await ProductService.GetCategories();
             }
             catch (Exception ex)
             {

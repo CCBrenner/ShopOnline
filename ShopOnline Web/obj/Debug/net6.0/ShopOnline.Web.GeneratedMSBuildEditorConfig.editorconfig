@@ -56,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/ShopOnline/ShopOnline Web/Pages/Products.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/ShopOnline/ShopOnline Web/Pages/ShoeProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvZVByb2R1Y3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheVByb2R1Y3RzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-r631xo10ml
 
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/ShopOnline/ShopOnline Web/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9lmlawq90j
+
 [C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/ShopOnline/ShopOnline Web/Pages/ShoppingCart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdDYXJ0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-2o7k8o7qyw
@@ -87,3 +87,7 @@ build_metadata.AdditionalFiles.CssScope = b-odzh4mtldn
 [C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/ShopOnline/ShopOnline Web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zzqun8vtrk
+
+[C:/Users/Collyn B - VotP/Desktop/Professional/Software Engineering/projects/gh_clone_hosting/ShopOnline/ShopOnline Web/Shared/ProductCategoryNavItems.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2R1Y3RDYXRlZ29yeU5hdkl0ZW1zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-dy9bmc7u3i
