@@ -20,15 +20,14 @@ namespace ShopOnline.Api.Controllers
         {
             try
             {
-                var products = await this.productRepository.GetItems();
-                var productCategories = await this.productRepository.GetCategories();
-                if (products == null && productCategories == null)
+                var products = await productRepository.GetItems();
+                if (products == null)
                 { 
                    return NotFound();
                 }
                 else
                 {
-                    var productDtos = products.ConvertToDto(productCategories);
+                    var productDtos = products.ConvertToDto();
 
                     return Ok(productDtos);
                 }
@@ -45,15 +44,14 @@ namespace ShopOnline.Api.Controllers
         {
             try
             {
-                var product = await this.productRepository.GetItem(id);
+                var product = await productRepository.GetItem(id);
                 if (product == null)
                 {
                     return BadRequest();
                 }
                 else
                 {
-                    var productCategory = await this.productRepository.GetCategory(product.CategoryId);
-                    var productDto = product.ConvertToDto(productCategory);
+                    var productDto = product.ConvertToDto();
                     return Ok(productDto);
                 }
             }
@@ -90,10 +88,9 @@ namespace ShopOnline.Api.Controllers
             {
                 IEnumerable<ProductDto> productDtos;
                 var products = await productRepository.GetItemsByCategory(categoryId);
-                var productCategories = await productRepository.GetCategories();
                 if (products == null)
                     NotFound();
-                productDtos = products.ConvertToDto(productCategories);
+                productDtos = products.ConvertToDto();
                 return Ok(productDtos);
             }
             catch (Exception)
