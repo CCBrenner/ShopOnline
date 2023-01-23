@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UmbbUwnIc7ZsWPb28jsNkpBKTVY1l6OipGuX8X9zRiSGcoxHd1MxJQRwqSdFp5B8f2hXCJUyyGzqVxRWceHQfA==",
+  "dgSpecHash": "DRPIWex+4i0dQa0tD9CWzi4DaGQ+dlUvne0wnFoQ41I8awT9qDmX+9dRZ5pYQ6j8hBcHf0muKByV/nFPxTehzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\ShopOnline.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.5\\microsoft.aspnetcore.authorization.6.0.5.nupkg.sha512",
     "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.5\\microsoft.aspnetcore.components.6.0.5.nupkg.sha512",
