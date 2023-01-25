@@ -8,6 +8,8 @@ namespace ShopOnline.Web.Pages
     {
         [Inject]
         public IShoppingCartService ShoppingCartService { get; set; }
+        [Inject]
+        public IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService { get; set; }
         public IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
         public string PaymentAmount { get; set; }
         public string ErrorMessage { get; set; }
@@ -16,7 +18,7 @@ namespace ShopOnline.Web.Pages
         {
             try
             {
-                ShoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
+                ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(HardCoded.UserId);
                 if (ShoppingCartItems != null)
                 {
                     decimal i = 0;

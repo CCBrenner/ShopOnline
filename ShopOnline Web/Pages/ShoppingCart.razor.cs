@@ -14,6 +14,10 @@ namespace ShopOnline.Web.Pages
         [Inject]
         public IProductService ProductService { get; set; }
         [Inject]
+        public IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService { get; set; }
+        [Inject]
+        public IManageProductsLocalStorageService ManageProductsLocalStorageService { get; set; }
+        [Inject]
         public IJSRuntime Js { get; set; }
         public IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
         public string ErrorMessage { get; set; }
@@ -23,7 +27,7 @@ namespace ShopOnline.Web.Pages
         {
             try
             {
-                ShoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
+                ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(HardCoded.UserId);
                 CartChanged();
             }
             catch (Exception ex)
@@ -52,6 +56,8 @@ namespace ShopOnline.Web.Pages
                         CartChanged();
                         MakeQtyUpdateButtonVisible(id, false);
                     }
+
+                    await ManageCartItemsLocalStorageService.SaveCollection(ShoppingCartItems);
                 }
                 else
                 {
@@ -74,17 +80,17 @@ namespace ShopOnline.Web.Pages
                 RemoveCartItem(id);
             CartChanged();
         }
-        private void RemoveCartItem(int id)
+        private async void RemoveCartItem(int id)
         {
-            var cartItemDto = GetCartItem(id);
             List<CartItemDto> cartItemsList = ShoppingCartItems.ToList();
-            cartItemsList.Remove(cartItemDto);
+            cartItemsList.Remove(GetCartItem(id));
             ShoppingCartItems = cartItemsList;
+            await ManageCartItemsLocalStorageService.SaveCollection(ShoppingCartItems);
         }
         private CartItemDto GetCartItem(int id) =>
             ShoppingCartItems.FirstOrDefault(x => x.Id == id);
 
-        private void CalculateCartSumaryTotals()
+        private void CalculateCartSummaryTotals()
         {
             SetTotalPrice();
             SetTotalQuantity();
@@ -103,7 +109,7 @@ namespace ShopOnline.Web.Pages
         }
         private void CartChanged()
         {
-            CalculateCartSumaryTotals();
+            CalculateCartSummaryTotals();
             ShoppingCartService.RaiseEventOnShoppingCartChanged(TotalQuantity);
         }
     }

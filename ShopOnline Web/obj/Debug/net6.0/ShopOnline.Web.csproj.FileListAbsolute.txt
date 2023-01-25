@@ -3847,7 +3847,6 @@ C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_c
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\scopedcss\Pages\DisplayProducts.razor.rz.scp.css
-C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\scopedcss\Pages\ShoppingCart.razor.rz.scp.css
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\scopedcss\bundle\ShopOnline.Web.styles.css
@@ -3859,3 +3858,7 @@ C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_c
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\ref\ShopOnline.Web.dll
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\scopedcss\Shared\ProductCategoryNavItems.razor.rz.scp.css
 C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\scopedcss\Pages\Products.Razor.rz.scp.css
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\bin\Debug\net6.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\bin\Debug\net6.0\Blazored.LocalStorage.dll
+C:\Users\Collyn B - VotP\Desktop\Professional\Software Engineering\projects\gh_clone_hosting\ShopOnline\ShopOnline Web\obj\Debug\net6.0\build-gz\jNJiFwwQ.gz

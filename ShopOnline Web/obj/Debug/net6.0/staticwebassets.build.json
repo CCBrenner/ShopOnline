@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "00x48s6R4ijwZxnptxf5Qe7V/ygY0XvYxtGAEaO6Ukg=",
+  "Hash": "pmrgLDI8Pxt/KM6h/Uk2+2B7w062JlX8Dvc32e8hpIs=",
   "Source": "ShopOnline.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.5\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Collyn B - VotP\\.nuget\\packages\\blazored.localstorage\\4.3.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.12.vcefaxtcla.js",
@@ -5863,6 +5880,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\obj\\Debug\\net6.0\\build-gz\\jNJiFwwQ.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Users\\Collyn B - VotP\\Desktop\\Professional\\Software Engineering\\projects\\gh_clone_hosting\\ShopOnline\\ShopOnline Web\\obj\\Debug\\net6.0\\build-gz\\jpv3TqD6.gz",

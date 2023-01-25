@@ -9,6 +9,7 @@
     "assembly": {
       "Azure.Core.dll": "sha256-mV+r6h4Q5bYNZWmGqnlVh8j+RvQCuCLcaJBse6KNzZQ=",
       "Azure.Identity.dll": "sha256-3I+KiqSx+vChzrz8oSO5j2hbj7gSL1YGcIsSOkurkYI=",
+      "Blazored.LocalStorage.dll": "sha256-Jq\/dS58mO5wtL2d0x\/FeAdDZ1bUTpTzPODJpBZUre\/4=",
       "Humanizer.dll": "sha256-1oUwdVR9fjA+\/WA1TZEaL\/GO26WCzaL6WdkaLl3Pnpg=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-ThsHz1KsYfsXW9VgMdflnhR6Na8ZrPnzhWrKZkjl6XE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-ramVDoksT5qhSqsyvuf70+Xk6LzKiCAjtzl9xVwIdV4=",
@@ -231,14 +232,14 @@
       "netstandard.dll": "sha256-\/CRbZZ6en3BoMsR5fhsJCTE9TYhik+E7KU+O9cBdC9c=",
       "System.Private.CoreLib.dll": "sha256-ftEeXsH4HQ3J6VlVJuI3mbfqZxGyNtYVxuIQD\/8waHw=",
       "ShopOnline.Models.dll": "sha256-hZjbILd2CDfLtv8KKydvFtxpy5sLk7gNbuBnkVVSxlY=",
-      "ShopOnline.Web.dll": "sha256-dh7gx8xqgsoi+Cr41zh3akj2U8nLkGCB4QsoiP6+hUI="
+      "ShopOnline.Web.dll": "sha256-FfYhIpIPcUXYiPQZrv3JMxFoZG\/fEBNzhE1EKM13aXI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "ShopOnline.Models.pdb": "sha256-Wrl1ooJyLt+6Zy6npnofn5kNMo5l0j0z1tv2vZXf1Qc=",
-      "ShopOnline.Web.pdb": "sha256-IKKol3v4g7k2VSSzYE5tFyuAJXRLmiTtbyXFoJ2MxWM="
+      "ShopOnline.Web.pdb": "sha256-6VuGphy02Y3UvsVrQASL4K87d8bRuc36O9ITaJkl9FE="
     },
     "runtime": {
       "dotnet.6.0.12.vcefaxtcla.js": "sha256-qD0QxS71qYTQZMj+JDk0IXr28ewa+pSDzShFKSNkQ+0=",

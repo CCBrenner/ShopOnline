@@ -21,9 +21,9 @@ namespace ShopOnline.Web.Pages
             try
             {
                 await ClearLocalStorage();
-                ProductsList = await ProductService.GetItems();
+                ProductsList = await ManageProductsLocalStorageService.GetCollection();
+                var shoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(HardCoded.UserId);
 
-                var shoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
                 var totalQty = shoppingCartItems.Sum(i => i.Qty);
 
                 ShoppingCartService.RaiseEventOnShoppingCartChanged(totalQty);

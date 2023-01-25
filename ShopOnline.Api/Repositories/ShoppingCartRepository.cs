@@ -65,7 +65,7 @@ namespace ShopOnline.Api.Repositories
         public async Task<CartItem> UpdateQty(int id, CartItemQtyUpdateDto cartItemQtyUpdateDto)
         {
             var item = await this.shopOnlineDbContext.CartItems.FindAsync(id);
-             if (item != null)
+            if (item != null)
             {
                 item.Qty = cartItemQtyUpdateDto.Qty;
                 await this.shopOnlineDbContext.SaveChangesAsync();
