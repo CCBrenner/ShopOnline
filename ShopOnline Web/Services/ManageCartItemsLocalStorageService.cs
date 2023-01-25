@@ -18,12 +18,20 @@ namespace ShopOnline.Web.Services
 
         public async Task<IEnumerable<CartItemDto>> GetCollection(int id) =>
             await LocalStorageService.GetItemAsync<IEnumerable<CartItemDto>>(key)  // Get item from local storage
-                ?? await ShoppingCartService.GetItems(id);  // If null, Add item from DB
+                ?? await AddCollection(id);  // If null, Add item from DB
 
         public async Task RemoveCollection() =>
             await LocalStorageService.RemoveItemAsync(key);
 
         public async Task SaveCollection(IEnumerable<CartItemDto> cartItemDtos) =>
             await LocalStorageService.SetItemAsync(key, cartItemDtos);
+
+        private async Task<IEnumerable<CartItemDto>> AddCollection(int id)
+        {
+            var shoppingCartCollection = await ShoppingCartService.GetItems(id);
+            if (shoppingCartCollection != null)
+                await SaveCollection(shoppingCartCollection);
+            return shoppingCartCollection;
+        }
     }
 }

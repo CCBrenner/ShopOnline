@@ -20,12 +20,14 @@ namespace ShopOnline.Web.Pages
         [Inject]
         public NavigationManager NavigationManager { get; set; }
         public ProductDto Product { get; set; }
+        public IEnumerable<CartItemDto> ShoppingCartItems { get; set; }
         public string ErrorMessage { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
             try
             {
+                ShoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(HardCoded.UserId);
                 var products = await ManageProductsLocalStorageService.GetCollection();
                 Product = products.FirstOrDefault(products => products.Id == Id);
             }
@@ -42,9 +44,9 @@ namespace ShopOnline.Web.Pages
 
                 if (cartItemDto != null)
                 {
-                    var shoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection(HardCoded.UserId);
-                    shoppingCartItems.ToList().Add(cartItemDto);
-                    await ManageCartItemsLocalStorageService.SaveCollection(shoppingCartItems);
+                    List<CartItemDto> cartItems = ShoppingCartItems.ToList();
+                    cartItems.Add(cartItemDto);
+                    await ManageCartItemsLocalStorageService.SaveCollection(cartItems);
                 }
 
                 NavigationManager.NavigateTo("/ShoppingCart");
